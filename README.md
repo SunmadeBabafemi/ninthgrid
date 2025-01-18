@@ -4,6 +4,7 @@ To start the project, run:
 
 ```bash
 npm install
+npm run migration
 npm run dev
 
 ```
