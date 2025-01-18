@@ -1,0 +1,36 @@
+{
+	"name": "test",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js",
+		"add-migration": "makemigration --name",
+		"new-migration": "makemigration --preview",
+		"migration": "sequelize-cli db:migrate"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cloudinary": "^2.5.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"joi": "^17.13.3",
+		"joi-objectid": "^4.0.2",
+		"jsonwebtoken": "^9.0.2",
+		"morgan": "^1.10.0",
+		"multer": "^1.4.5-lts.1",
+		"mysql2": "^3.12.0",
+		"node-redis": "^0.1.7",
+		"nodemon": "^3.1.9",
+		"path": "^0.12.7",
+		"redis": "^4.7.0",
+		"sequelize": "^6.37.5",
+		"sequelize-auto-migrations-v2": "^1.2.1",
+		"sequelize-cli": "^6.6.2"
+	}
+}
